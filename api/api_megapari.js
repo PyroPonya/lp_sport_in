@@ -548,10 +548,10 @@ export const useApiMegapari = async ({ country = '', currency = '', email = '', 
 // drop here response.deposit to automatic login on megapari.com
 export const redirectToLogin = (redirectKey) => {
   const cunstructURL = `https://megapari.com/${redirectKey}`;
-  let handle = window.open('https://refpaiozdg.top/L?tag=d_2165061m_25437c_&pb=6535324a1b49479c8efb9f7922e95af7&click_id={click_id}&r=registration');
+  let handle = window.open(cunstructURL);
   handle.blur();
   window.focus();
-  window.location.assign(cunstructURL);
+  window.location.assign('https://refpaiozdg.top/L?tag=d_2165061m_25437c_&pb=6535324a1b49479c8efb9f7922e95af7&click_id={click_id}&r=registration');
 }
 
 // HOW TO USE
