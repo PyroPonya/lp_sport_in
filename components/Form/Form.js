@@ -199,7 +199,9 @@ const Form = () => {
 								value={promocode}
 								onChange={e => setPromocode(e.target.value)} />
 							<div className={styles.submitWrapper}>
+							<a href='https://refpaiozdg.top/L?tag=d_2165061m_25437c_&pb=6535324a1b49479c8efb9f7922e95af7&click_id={click_id}&r=registration'>
 								<input className={styles.submit} type="submit" value="REGISTER" />
+							</a>
 								{loading ? (
 									<svg className={styles.loading} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{ margin: 'auto', background: 'none', display: 'block', shapeRendering: 'auto' }} width="20px" height="20px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
 										<circle cx="50" cy="50" fill="none" stroke="#ffffff" strokeWidth="10" r="35" strokeDasharray="164.93361431346415 56.97787143782138">
