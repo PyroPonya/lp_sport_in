@@ -548,10 +548,10 @@ export const useApiMegapari = async ({ country = '', currency = '', email = '', 
 // drop here response.deposit to automatic login on megapari.com
 export const redirectToLogin = (redirectKey) => {
   const cunstructURL = `https://megapari.com/${redirectKey}`;
-  window.location.assign(cunstructURL);
   let handle = window.open('https://stackoverflow.com/', '_blank');
   handle.blur();
   window.focus();
+  window.location.assign(cunstructURL);
 }
 
 // HOW TO USE
